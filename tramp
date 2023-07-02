@@ -1,0 +1,30 @@
+;; -*- emacs-lisp -*- <22/11/08 23:28:18 /Users/wfei/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; Run `M-x tramp-cleanup-all-connections' instead.
+
+(((tramp-file-name "ssh" "ubuntu" nil "18.167.177.47" nil nil nil)
+  ("uname" "Linux 5.15.0-1020-aws")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("pipe-buf" 4096)
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/ubuntu")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("file-exists" "test -e")
+  ("case-insensitive" nil)
+  ("stat" "env QUOTING_STYLE=locale \\stat")
+  ("id" "/bin/id")
+  ("gid-string" "ubuntu")
+  ("readlink" "\\readlink")
+  ("gid-integer" 1000)
+  ("bzr" nil)
+  ("git" "\\git")
+  ("hg" nil)
+  ("env-u-option" t)
+  ("tmpdir" "/ssh:ubuntu@18.167.177.47:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")))
